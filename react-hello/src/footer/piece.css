@@ -1,0 +1,12 @@
+.piece{
+    float: left;
+    width:30%;
+    height: 30vh;
+    /* background-color: #ccc; */
+    color:black;
+    margin:1%;
+}
+.piece >h3{
+    font-size:24px;
+    color: #ccc;
+}
