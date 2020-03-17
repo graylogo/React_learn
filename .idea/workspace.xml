@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ed580d2-51e6-4e56-bae8-cdfc16cc1d97" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/react-hello/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/react-hello/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-hello/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-hello/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-form/src/components/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-state/src/components/Box.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-state/src/components/Count.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-state/src/components/Drawer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-state/src/components/Drawer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-state/src/components/Drawer2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-state/src/components/Drawer2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-state/src/components/Tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-state/src/components/banner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-state/src/components/banner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-state/src/components/box.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-state/src/components/tab.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-hello/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-hello/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-hello/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-hello/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,14 +22,32 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="React_learn" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Z16X5xq48kkDKpuLwAMxd0YtMN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="CSS" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/react-state/src/components" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -30,9 +57,13 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/react-state/src/components" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -70,7 +101,9 @@
       <workItem from="1584026891549" duration="166000" />
       <workItem from="1584027087335" duration="118000" />
       <workItem from="1584027235478" duration="478000" />
-      <workItem from="1584027783364" duration="389000" />
+      <workItem from="1584027783364" duration="42374000" />
+      <workItem from="1584321833674" duration="5872000" />
+      <workItem from="1584407990598" duration="1447000" />
     </task>
     <servers />
   </component>

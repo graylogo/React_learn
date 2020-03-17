@@ -30,7 +30,7 @@ function App() {
     <div>
       <Head />
       <Main />
-      <Footer />
+        <Footer />
     </div>
   );
 }
