@@ -1,0 +1,11 @@
+.postList{
+    width: 500px;
+    height: 1000px;
+    margin:0 auto;
+    padding-top:20px;
+    /*border: 1px solid red;*/
+}
+.postList h2{
+    font-size: 30px;
+    text-align: center;
+}

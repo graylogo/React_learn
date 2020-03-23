@@ -1,0 +1,27 @@
+.showList{
+    width: 100%;
+    overflow: hidden;
+    font-size: 1.2em;
+    color: #ccc;
+    padding:.2em 0.1em;
+    border-bottom: 1px solid #ccc;
+}
+.showList .list_left{
+    float: left;
+    margin-left: 2%;
+}
+.showList ul{
+    float: left;
+    margin-left: 10%;
+}
+.showList ul li{
+    float: left;
+    padding:0 .2em;
+}
+.showList .clear{
+    float: right;
+}
+.on{
+    border:1px solid orangered;
+    border-radius: 5px;
+}

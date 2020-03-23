@@ -2,19 +2,134 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ed580d2-51e6-4e56-bae8-cdfc16cc1d97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/react-form/src/components/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-state/src/components/Box.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-state/src/components/Count.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-state/src/components/Drawer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-state/src/components/Drawer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-state/src/components/Drawer2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-state/src/components/Drawer2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-state/src/components/Tab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-state/src/components/banner.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-state/src/components/banner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-state/src/components/box.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-state/src/components/tab.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-hello/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-hello/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/data/post_data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@babel/parser/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@babel/parser/typings/babel-parser.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@babel/types/lib/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@babel/types/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/babel__core/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/babel__core/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/babel__generator/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/babel__generator/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/babel__template/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/babel__template/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/babel__traverse/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/babel__traverse/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/color-name/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/color-name/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/eslint-visitor-keys/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/eslint-visitor-keys/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/events/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/events/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/glob/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/glob/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/istanbul-lib-coverage/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/istanbul-lib-coverage/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/istanbul-lib-report/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/istanbul-lib-report/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/istanbul-reports/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/istanbul-reports/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/json-schema/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/json-schema/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/minimatch/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/minimatch/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/assert.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/async_hooks.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/base.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/buffer.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/child_process.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/cluster.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/console.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/constants.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/crypto.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/dgram.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/dns.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/domain.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/events.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/fs.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/globals.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/http.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/http2.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/https.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/inspector.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/module.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/net.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/os.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/path.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/perf_hooks.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/process.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/punycode.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/querystring.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/readline.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/repl.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/stream.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/string_decoder.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/timers.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/tls.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/trace_events.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/ts3.2/fs.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/ts3.2/globals.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/ts3.2/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/ts3.2/util.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/ts3.5/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/ts3.5/wasi.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/tty.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/url.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/util.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/v8.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/vm.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/worker_threads.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/node/zlib.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/parse-json/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/parse-json/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/q/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/q/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/stack-utils/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/stack-utils/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/yargs-parser/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/yargs-parser/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/yargs/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/yargs/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/node_modules/@types/yargs/yargs.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/src/PostList/List.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/src/PostList/PoatList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/src/PostList/list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/src/PostList/postlist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/src/components/DoList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/src/components/Search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/src/components/ShowInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/src/components/Todo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/src/components/dolist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/src/components/search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/src/components/showinfo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/src/components/todo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/src/serviceWorker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-todo/src/setupTests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React_learn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-form/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-form/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-form/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-form/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-form/src/Data/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-form/src/Data/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-form/src/components/Alert.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-form/src/components/Alert.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-form/src/components/Checkbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-form/src/components/Checkbox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-form/src/components/alert.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-form/src/components/alert.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-form/src/components/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-form/src/components/form.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +144,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
+        <option value="JSON" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -42,11 +158,12 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="CSS" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/react-state/src/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/react-philosophy/src" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -62,6 +179,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/react-philosophy/src" />
       <recent name="$PROJECT_DIR$/react-state/src/components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -103,7 +221,11 @@
       <workItem from="1584027235478" duration="478000" />
       <workItem from="1584027783364" duration="42374000" />
       <workItem from="1584321833674" duration="5872000" />
-      <workItem from="1584407990598" duration="1447000" />
+      <workItem from="1584407990598" duration="11878000" />
+      <workItem from="1584446002389" duration="4813000" />
+      <workItem from="1584523845043" duration="2923000" />
+      <workItem from="1584541274413" duration="44561000" />
+      <workItem from="1584801704549" duration="24656000" />
     </task>
     <servers />
   </component>
@@ -122,5 +244,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

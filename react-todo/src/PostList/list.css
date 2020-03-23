@@ -1,0 +1,21 @@
+.list{
+    width: 90%;
+    margin: .2em auto;
+    padding-bottom: 2em;
+}
+.title{
+    padding-bottom: .5em;
+}
+.content{
+    color: #ccc;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /* 控制显示的行数 */
+    margin-bottom: .5em;
+}
+.like,.comment{
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
