@@ -21,7 +21,7 @@ class Todo extends React.Component{
         const {searchVal,list,curr} = this.state;
         const activeList = list.filter((item)=>item.statu===true);
         const comList = list.filter((item)=>item.statu===false);
-        const filter =(lists)=>lists.map((item,ind)=><DoList id = {item.id} statu={item.statu} name ={item.name} key ={ind} del ={this.del} clickItem = {this.clickItem}/>);
+        const filter =(lists)=>lists.map((item,ind)=><DoList id = {item.id} statu={item.statu} name ={item.name} key ={item.id} del ={this.del} clickItem = {this.clickItem}/>);
         const dolist = ()=>{
             if(curr ===0){return(filter(list))}
             else if(curr===1){return (filter(activeList))}
@@ -82,7 +82,8 @@ class Todo extends React.Component{
     };
     clickOk =()=>{
         if(this.state.searchVal){
-            const id = this.state.list.length +1;
+            // const id = this.state.list.length +1;
+            const id = new Date().getTime();
             this.state.list.push({id: id.toString(),name: this.state.searchVal,statu:true});
             this.setState({
                 list: this.state.list,
